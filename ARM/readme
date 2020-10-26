@@ -7,3 +7,7 @@ service ssh restart
 Cerrar sesion ssh usuario pi e iniciar nueva sesion ssh con usuario root
 chmod +x EasyDvlink_ARM_Install
 ./EasyDvlink_ARM_Install
+
+
+
+Para PIZero generar un archivo vacio en /boot con nombre ssh y completar el wpa_supplicant.conf
