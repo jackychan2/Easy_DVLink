@@ -1,0 +1,16 @@
+country=ES
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+# Red 1
+network={
+ssid="SSID1"
+psk="password1"
+key_mgmt=WPA-PSK
+}
+
+# Red 2
+network={
+ssid="SSID2"
+psk="password2"
+key_mgmt=WPA-PSK
+}
