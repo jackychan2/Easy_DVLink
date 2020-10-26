@@ -1,0 +1,9 @@
+Bajar por ejemplo https://downloads.raspberrypi.org/raspios_lite_armhf_latest
+
+sudo passwd root
+nano /etc/ssh/sshd_config
+Cambiar linea 32 PermitRootLogin yes
+service ssh restart
+Cerrar sesion ssh usuario pi e iniciar nueva sesion ssh con usuario root
+chmod +x EasyDvlink_ARM_Install
+./EasyDvlink_ARM_Install
