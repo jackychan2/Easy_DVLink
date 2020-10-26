@@ -1,6 +1,11 @@
 Probado en esta distribucion https://downloads.raspberrypi.org/raspios_lite_armhf_latest
-Debe de funcionar en cualquier otra basada en debian
+en PI2-3-4 y Zero
+Probado en esta distribucion  https://redirect.armbian.com/orangepipc/Buster_current
+en Orange Pi PC
 
+Deberia de funcionar en cualquier debian buster
+
+Instrucciones para Rasperri Pi OS
 sudo passwd root
 nano /etc/ssh/sshd_config
 Cambiar linea 32 PermitRootLogin yes
@@ -11,4 +16,6 @@ chmod +x EasyDvlink_ARM_Install
 
 
 
-Para PIZero generar un archivo vacio en /boot con nombre ssh y completar el wpa_supplicant.conf
+Para arrancar la pi sin pantalla ni teclado generar un archivo vacio en /boot con nombre ssh y completar el wpa_supplicant.conf
+
+En el caso de armbian ya viene activo el ssh
