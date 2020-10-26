@@ -1,4 +1,5 @@
-Bajar por ejemplo https://downloads.raspberrypi.org/raspios_lite_armhf_latest
+Probado en esta distribucion https://downloads.raspberrypi.org/raspios_lite_armhf_latest
+Debe de funcionar en cualquier otra basada en debian
 
 sudo passwd root
 nano /etc/ssh/sshd_config
